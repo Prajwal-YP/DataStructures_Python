@@ -29,13 +29,13 @@ class LinkedList:
 
 # Creating the head node of the linked list
 headNode=LinkedList(1)
-print('Value of the head node is '+str(headNode.tail.value))
+print('Value of the tail node is '+str(headNode.tail.value))
 
 headNode.insert_end_loop(2)
-print('Value of the head node is '+str(headNode.tail.value))
+print('Value of the tail node is '+str(headNode.tail.value))
 
 headNode.insert_end_loop(3)
-print('Value of the head node is '+str(headNode.tail.value))
+print('Value of the tail node is '+str(headNode.tail.value))
 
 headNode.insert_end_loop(4)
-print('Value of the head node is '+str(headNode.tail.value))
+print('Value of the tail node is '+str(headNode.tail.value))
